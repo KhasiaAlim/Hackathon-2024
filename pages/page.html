@@ -30,7 +30,7 @@
             <div class="links">
                 <a href="#">Home</a>
                 <a href="#">Market</a>
-                <a href="#">Blog</a>
+                <a href="../index.html">Blog</a>
                 <a href="#">Career&nbsp;<span id="hire"
                         style="font-size: 10px; background-color: var(--main-color); color: #ffffff; border-radius: 10px; font-weight: 500; padding: 3px;">Hiring</span></a>
             </div>
@@ -44,11 +44,9 @@
             </button>
             <a href="pages/create.html" id="createPostLink" class="btn btn-primary" style="display: none;">Create a
                 post</a>
-            <div class="profile-photo" id="profileSection" style="display: none;">
                 <img src="../images/profile.jpg" id="profileIcon" class="profilePic" alt="Profile Photo" height="50px"
                     style=" border-radius: 50%;" />
-                <input type="file" id="profilePhotoInput" accept="image/*" />
-            </div>
+
             <!-- MODAL -->
             <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
                 aria-hidden="true">
@@ -59,9 +57,7 @@
                             <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
                         <div class="modal-body">
-                            <button type="button" class="btn btn-primary" id="login" style="margin: auto;">Sign Up with
-                                Google</button> OR
-                            <button type="button" class="btn btn-primary" id="login" style="margin: auto;">Log In with
+                             <button type="button" class="btn btn-primary" id="login-google" style="margin: auto; width: 450px;" >Signup/Login with
                                 Google</button>
                             <br />
                             <br />
@@ -127,7 +123,6 @@
       <!-- FIREBASE-LINKS -->
       <script src="https://www.gstatic.com/firebasejs/10.14.1/firebase-firestore-compat.js"></script>
     <script type="module" src="../firebasejs/firebase-website.js"></script>
-    <script src="../firebasejs/profile-photo.js"></script>
 </body>
 
 </html>
